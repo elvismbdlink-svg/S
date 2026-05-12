@@ -31,7 +31,7 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: cyan;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -44,7 +44,7 @@ nav a:hover {
 main {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 30px;
     padding: 60px 40px;
     background-color: #f1f5f9;
@@ -110,13 +110,4 @@ main {
 .tech-card:hover {
     transform: translateY(-5px);
     background: #e2e8f0;
-}
-
-/* FOOTER */
-footer {
-    background-color: #0f172a;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
 }
